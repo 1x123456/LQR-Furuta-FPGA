@@ -1,0 +1,22 @@
+# Normalize text; keep FPGA bitstreams binary.
+* text=auto
+
+*.v       text
+*.sv      text
+*.vh      text
+*.md      text
+*.py      text
+*.tcl     text
+*.cst     text
+*.sdc     text
+*.gprj    text
+*.csv     text
+*.mem     text
+
+*.fs      binary
+*.bin     binary
+*.binx    binary
+*.rar     binary
+*.7z      binary
+*.zip     binary
+*.png     binary
